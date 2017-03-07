@@ -1,18 +1,19 @@
 body {
 	color: white;
+  font-family: 'Open Sans', sans-serif;
 }
 
 header {
 	background: url(/image/Layer_13.jpg);
 	background-size: cover;
-	height: 80vh;
+	height: 100vh;;
 	
 	.logo{
 		margin-top: 40px;
 		
 		.napis{
-			margin-top: 150px;
-			h1{
+			margin-top: 250px;
+			h2{
 				font-size: 60px;
 			}
 			p{
@@ -24,14 +25,225 @@ header {
 
 #info {
 	color: black;
-	padding: 30px;
+	padding: 50px;
 	.foto2 {
 		position: absolute;
-		bottom:0px;
-		right: 0;
+		top: 42vh;
+    left: 54%;
+		
 		img {
 			height: 80vh;
 		}
 	}
 }
 
+#box {
+  
+	.container-fluid {
+    .row{
+      .col-md-3, .col-md-6{
+        height: 255px;
+        h2{
+          padding: 10px 0;
+        }
+        p{
+          
+        }
+        a{
+          text-decoration: none;
+          margin: 20px 0 30px 0;
+          color:white;
+          display: block;
+        }
+      }
+      .col1{
+        background: pink;
+      }
+      
+      .col2{
+        background: #7835bc;
+      }
+      
+      .col3{
+        background: url(/image/col3.jpg);
+        background-size: cover;
+        background-position: center;
+      }
+      
+      .col4{
+        background: #b120b1;
+      }
+      
+      .col5{
+        background: url(/image/col5.jpg);
+        background-size: cover;
+        background-position: center;
+      }
+      
+      .col6{
+        background: #2ab469;
+      }
+      
+      .col7{
+        background: url(/image/col7.jpg);
+        background-size: cover;
+        background-position: center;
+      }
+    }
+    
+}
+}
+
+#details{
+  color: #666;
+  .container {
+	.row {
+    h2{
+      padding: 50px 0 30px 20px;
+    }
+    .col-md-3{
+      padding: 0 10px;
+      h5{
+        margin-bottom: 30px;
+        font-weight: bold;
+      }
+      
+      p{
+        
+      }
+    }
+}
+}
+}
+
+#BigPicture {
+  .container-fluid {
+    .row {
+      background: url('/image/old-car.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 90vh;
+      .col-md-5{
+        position: relative;
+        top:51%;
+        left:7%;
+        h1 {
+          font-size: 55px;
+        }
+        p {
+          padding: 20px 0;
+        }
+        a {
+          text-decoration: none;
+          color: white;
+          
+        }
+      }
+     
+    }
+  }
+}
+
+#reasons{
+  background: #6fba9b;
+  padding: 120px 0;
+  h2{
+    margin: 0 0 30px 10px;
+    
+  }
+  .col-md-4{
+    padding: 10px;
+    h5{
+      margin-bottom: 20px;
+      font-weight: bold;
+    }
+  }
+}
+
+#twoBox {
+  padding: 100px 0;
+  color: #666;
+  .col-md-6 {
+    padding: 30px;
+    width: 45%;
+    margin: 0 2.5%;
+    
+    .lab {
+      visibility: hidden;
+      }
+    &:hover {
+      box-shadow: 0 0 40px #666;
+      .lab {
+        visibility: visible;
+        
+      }
+    }
+      h2 {
+        
+        margin-top: 20;
+      }
+      p {
+        padding: 20px 0;
+        margin-bottom: 10px;
+        color: #a3a3bf;
+    }
+      .glyphicon {
+        font-size: 25px;
+        padding: 10px 15px 10px 0;
+        color: #a8a6a6;
+        &:hover {
+          color: #6fba9b;
+        }
+      }
+    }
+  }
+
+
+#footer{
+  background: #1d2265;
+  padding: 100px 0;
+  .col-md-6 {
+    padding: 0 100px 0 0;
+    h3{
+      padding: 20px 0;
+      font-weight: bold;
+    }
+  }
+  
+  .search{
+    input{
+      width: 90%;
+    }
+    span{
+      background: #2bd171;
+      color:white;
+      padding: 20%;
+      
+      text-align: center;
+      display: table-cell;
+      align-content: center;
+    }
+  }
+  
+  .col-md-2{
+    h5{
+      padding: 20px 0;
+      font-weight: bold;
+    }
+    
+    ul{
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      a{
+        text-decoration: none;
+        color: white;
+        
+        &:hover{
+          color: #5eaa55;
+        }
+      }
+    }
+    
+  }
+}
