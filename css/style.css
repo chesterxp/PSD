@@ -8,9 +8,9 @@ body p {
   font-size: 0.7em;
 }
 header {
-  background: url(/image/Layer_13.jpg);
+  background: url(/image/Layer_13.jpg) no-repeat center center;
   background-size: cover;
-  height: 100vh;
+  height: 80vh;
   color: white;
 }
 header .logo {
@@ -23,27 +23,18 @@ header .logo .napis h2 {
   font-size: 2.5em;
   margin-bottom: 0.4em;
 }
-header .logo .napis p {
-  width: 38em;
-}
 #info {
   color: #222626;
-  padding: 1.5em;
-}
-#info .col-md-6 {
-  padding: 1em;
+  padding: 5em 1em;
 }
 #info h2 {
   margin-bottom: 1em;
 }
-#info .foto2 {
-  position: absolute;
-  top: 40%;
-  left: 50%;
-}
-#info .foto2 img {
-  height: 80vh;
-  margin: 0 auto;
+#info .col-md-6 img {
+  display: block;
+  margin-top: -630px;
+  width: 100%;
+  height: auto;
 }
 #box .container-fluid .row {
   color: white;
@@ -117,18 +108,17 @@ header .logo .napis p {
   height: 90vh;
   color: white;
 }
-#BigPicture .container-fluid .row .col-md-5 {
+#BigPicture .container-fluid .row .text {
   position: relative;
-  top: 47%;
-  left: 17%;
+  top: 50%;
 }
-#BigPicture .container-fluid .row .col-md-5 h1 {
+#BigPicture .container-fluid .row .text h1 {
   font-size: 2em;
 }
-#BigPicture .container-fluid .row .col-md-5 p {
+#BigPicture .container-fluid .row .text p {
   padding: 1em 0;
 }
-#BigPicture .container-fluid .row .col-md-5 a {
+#BigPicture .container-fluid .row .text a {
   text-decoration: none;
   color: white;
 }
@@ -139,7 +129,7 @@ header .logo .napis p {
 }
 #reasons h2 {
   margin: 0 0 1.5em 0;
-  font-size: 2em;
+  font-size: 1.8em;
 }
 #reasons .col-md-4 {
   padding: 0.5em 1.5em 1em 0;
@@ -230,21 +220,20 @@ header .logo .napis p {
 #footer .col-md-2 ul a:hover {
   color: #5eaa55;
 }
+.showw {
+  opacity: 1;
+}
+.hidee {
+  opacity: 0;
+}
 @media all and (max-width: 767px) {
   body {
     font-size: 16px;
   }
-  #info {
-    padding: 0;
-  }
-  #info .foto2 {
-    position: relative;
-    top: 0;
-    left: 0%;
-  }
-  #info .foto2 img {
-    width: 90%;
-    height: 50vh;
+  #info .col-xs-12 img {
+    display: none;
+    width: 50%;
+    margin: 0 auto;
   }
   #details .container .row {
     padding: 3.5em 1em;
@@ -257,10 +246,14 @@ header .logo .napis p {
   body {
     font-size: 18px;
   }
-  #info .foto2 {
-    position: static;
+  #info .col-sm-12 img {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
   }
-  #info .foto2 img {
-    height: 60vh;
+}
+@media all and (min-width: 993px) and (max-width: 1200px) {
+  header {
+    height: 100vh;
   }
 }
