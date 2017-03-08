@@ -10,7 +10,7 @@ body {
 header {
   background: url(/image/Layer_13.jpg)no-repeat center center;
   background-size: cover;
-  height: 80vh;
+  height: 100vh;
   color: white;
   .logo {
     margin-top: 2em;
@@ -26,7 +26,7 @@ header {
 
 #info {
   color: #222626;
-  padding: 5em 1em;
+  padding: 3em 1em;
   h2 {
     margin-bottom: 1em;
   }
@@ -93,7 +93,7 @@ header {
 #details {
   .container {
     .row {
-      padding: 3.5em 0;
+      padding: 3.5em 1em;
       h2 {
         padding: 0 0 3.5em 0.5em;
         color: #222626;
@@ -119,11 +119,11 @@ header {
       background: url('/image/old-car.jpg');
       background-size: cover;
       background-position: center;
-      height: 90vh;
+      height: 100vh;
       color: white;
       .text {
         position: relative;
-        top: 50%;
+        top: 45%;
         h1 {
           font-size: 2em;
         }
@@ -141,14 +141,14 @@ header {
 
 #reasons {
   background: #82ca9c;
-  padding: 6.4em 1em;
+  padding: 6.4em 2em;
   color: white;
   h2 {
     margin: 0 0 1.5em 0;
     font-size: 1.8em;
   }
   .col-md-4 {
-    padding: 0.5em 1.5em 1em 0;
+    padding: 0.5em 1em 1em 0;
     h5 {
       margin-bottom: 1.5em;
       font-weight: bold;
@@ -195,53 +195,58 @@ header {
 }
 
 #footer {
-  background: #192431;
-  color: #f6f7fa;
-  padding: 5em 1em;
-  .col-md-6 {
-    padding: 0 5em 0 1em;
-    h5 {
-      padding: 1em 0;
-      font-weight: bold;
-    }
-  }
-  .search {
-    input {
-      width: 90%;
-      color: black;
-    }
-    span {
-      background: #2bd171;
-      color: #f6f7fa;
-      padding: 20%;
-      text-align: center;
-      display: table-cell;
-      align-content: center;
-    }
-    .color {
-      color: #54657b;
-      margin-top: 0.5em;
-    }
-  }
-  .col-md-2 {
-    h5 {
-      padding: 1em 0;
-      font-weight: bold;
-    }
-    ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      a {
-        text-decoration: none;
-        color: #f6f7fa;
-        font-size: 0.6em;
-        &:hover {
-          color: #5eaa55;
-        }
-      }
-    }
-  }
+	background: #192431;
+	color: #f6f7fa;
+	padding: 5em 1em;
+	.col-md-6 {
+		padding: 0 5em 0 1em;
+		h5 {
+			padding: 1em 0;
+			font-weight: bold;
+		}
+	}
+	.search {
+		input {
+			width: 80%;
+			color: black;
+		}
+		a {
+			text-decoration: none;
+			margin: 0;
+			padding: 0;
+			span {
+				background: #2bd171;
+				color: #f6f7fa;
+				padding: 5.5px;
+				text-align: center;
+				display: table-cell;
+				align-content: center;
+			}
+		}
+		.color {
+			color: #54657b;
+			margin-top: 0.5em;
+		}
+	}
+	.col-md-2 {
+		h5 {
+			padding: 1em 0;
+			font-weight: bold;
+		}
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			a {
+				text-decoration: none;
+				color: #f6f7fa;
+				font-size: 0.6em;
+				&:hover {
+					color: #5eaa55;
+				}
+			}
+		}
+	}
 }
 
 //---------------------------------Other-------------------------------------//
@@ -274,6 +279,9 @@ header {
       }
     }
   }
+	#reasons{
+		padding: 4em 2em;
+	}
   #twoBox {
     .col-xs-12 {
       width: 90%;
@@ -281,20 +289,16 @@ header {
   }
 }
 
-
-
-
-
 @media all and (min-width:768px) and (max-width:992px) {
   body {
     font-size: 18px;
   }
   #info {
-    .col-sm-12 {
+    .col-sm-6 {
       img {
         display: block;
-        width: 50%;
-        margin: 0 auto;
+        width: 100%;
+        margin-top: -450px;
       }
     }
   }

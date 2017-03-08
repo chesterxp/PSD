@@ -4,7 +4,7 @@ $(document).ready(function () {
       		$(this).viewportChecker({
       			classToAdd: 'showw animated ' + $(this).data('animate'),
       			classToRemove: 'hidee',
-      			offset: '30%'
+      			offset: '20%'
       		});
       	});
     });

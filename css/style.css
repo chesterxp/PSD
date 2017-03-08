@@ -10,7 +10,7 @@ body p {
 header {
   background: url(/image/Layer_13.jpg) no-repeat center center;
   background-size: cover;
-  height: 80vh;
+  height: 100vh;
   color: white;
 }
 header .logo {
@@ -25,7 +25,7 @@ header .logo .napis h2 {
 }
 #info {
   color: #222626;
-  padding: 5em 1em;
+  padding: 3em 1em;
 }
 #info h2 {
   margin-bottom: 1em;
@@ -84,7 +84,7 @@ header .logo .napis h2 {
   background-position: center;
 }
 #details .container .row {
-  padding: 3.5em 0;
+  padding: 3.5em 1em;
 }
 #details .container .row h2 {
   padding: 0 0 3.5em 0.5em;
@@ -105,12 +105,12 @@ header .logo .napis h2 {
   background: url('/image/old-car.jpg');
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 100vh;
   color: white;
 }
 #BigPicture .container-fluid .row .text {
   position: relative;
-  top: 50%;
+  top: 45%;
 }
 #BigPicture .container-fluid .row .text h1 {
   font-size: 2em;
@@ -124,7 +124,7 @@ header .logo .napis h2 {
 }
 #reasons {
   background: #82ca9c;
-  padding: 6.4em 1em;
+  padding: 6.4em 2em;
   color: white;
 }
 #reasons h2 {
@@ -132,7 +132,7 @@ header .logo .napis h2 {
   font-size: 1.8em;
 }
 #reasons .col-md-4 {
-  padding: 0.5em 1.5em 1em 0;
+  padding: 0.5em 1em 1em 0;
 }
 #reasons .col-md-4 h5 {
   margin-bottom: 1.5em;
@@ -188,13 +188,18 @@ header .logo .napis h2 {
   font-weight: bold;
 }
 #footer .search input {
-  width: 90%;
+  width: 80%;
   color: black;
 }
-#footer .search span {
+#footer .search a {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+#footer .search a span {
   background: #2bd171;
   color: #f6f7fa;
-  padding: 20%;
+  padding: 5.5px;
   text-align: center;
   display: table-cell;
   align-content: center;
@@ -238,6 +243,9 @@ header .logo .napis h2 {
   #details .container .row {
     padding: 3.5em 1em;
   }
+  #reasons {
+    padding: 4em 2em;
+  }
   #twoBox .col-xs-12 {
     width: 90%;
   }
@@ -246,10 +254,10 @@ header .logo .napis h2 {
   body {
     font-size: 18px;
   }
-  #info .col-sm-12 img {
+  #info .col-sm-6 img {
     display: block;
-    width: 50%;
-    margin: 0 auto;
+    width: 100%;
+    margin-top: -450px;
   }
 }
 @media all and (min-width: 993px) and (max-width: 1200px) {
