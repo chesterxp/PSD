@@ -33,7 +33,7 @@ header .logo .napis h2 {
 #info .col-md-6 img {
   display: block;
   margin-top: -630px;
-  width: 100%;
+  width: 90%;
   height: auto;
 }
 #box .container-fluid .row {
@@ -263,5 +263,10 @@ header .logo .napis h2 {
 @media all and (min-width: 993px) and (max-width: 1200px) {
   header {
     height: 100vh;
+  }
+  #info .col-sm-6 img {
+    display: block;
+    width: 100%;
+    margin-top: -580px;
   }
 }
